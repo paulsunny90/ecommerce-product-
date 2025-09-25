@@ -7,6 +7,16 @@
   .left-cuntent ul {
     gap: 15px;
   }
+    .left-product
+  {
+    width: 90%;
+
+  }
+   .right-product {
+    width: 100%;
+    
+
+  }
 
   .product-main {
     flex-direction: column;
@@ -14,16 +24,28 @@
   }
 
   .product-image {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
+
+  }
+   .product-image img {
+    width: 100%;
+    border-radius:0;
+
+    
   }
   .sub-image{
-    margin-left: 12%;
+    width:90%;
+    margin-left: 7%;
+  }
+  .sub-image-one{
+    width: 100%;
   }
 
   .product-data {
-    margin-top: 40px;
-    width: 90%;
+    margin-top:40px;
+    width: 100%;
+    font-size: xx-large;
   }
 
   .cart {
@@ -31,6 +53,7 @@
     height: 50%;
     right: 0%;
     top: 80px;
+    display: none;
     
   }
   .button{
